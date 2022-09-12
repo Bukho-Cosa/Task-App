@@ -2,7 +2,7 @@
 
 /**
  * Once the page has loaded the event listener will carry out all of the app tasks
- * the formatting of html elements nto javascript also happens, although partially, here
+ * the formatting of html elements into javascript also happens, although partially, here
  */
 
 window.addEventListener('load', () => {
@@ -30,7 +30,7 @@ window.addEventListener('load', () => {
          */
         const taskEl = document.createElement("div");
         taskEl.classList.add("task");
-
+        const uniqueKey = Date.now(taskEl);
 
 
 
@@ -47,13 +47,13 @@ window.addEventListener('load', () => {
         /**
          * Created the date to go in the time div
          */
-         const taskDateEl = document.createElement("input");
-         taskDateEl.setAttribute("type", "date");
-         taskDateEl.classList.add("date");
+        const taskDateEl = document.createElement("input");
+        taskDateEl.setAttribute("type", "date");
+        taskDateEl.classList.add("date");
 
-         /**
-         * Appended the date into the correct div
-         */
+        /**
+        * Appended the date into the correct div
+        */
         taskTimeEl.appendChild(taskDateEl);
 
 
@@ -89,9 +89,6 @@ window.addEventListener('load', () => {
 
 
 
-
-
-        
         /**
          * Coded for the div, in the second container, that has the edit and delete buttons
          */
@@ -159,15 +156,13 @@ window.addEventListener('load', () => {
         })
 
 
-
-        //this was supposed to sort everything in alphabetical order tbh I'd rather it saved in date order
         /**
-         * To be completely honest I do not know how to fix this so I am prepared to lose marks on it
+         * coding for local storage and using the name entered before
          */
-        let items = [taskContentEl];
-        items.sort(function (a, b) {
-            return a.localeCompare(b); //using String.prototype.localCompare()
-          });
+        /*const uniqueKey = Date.now(taskEl);
+        localStorage.setItem('keyName', uniqueKey);
+        
+        taskEl = localStorage.getItem("keyName");*/
 
     })
 })
