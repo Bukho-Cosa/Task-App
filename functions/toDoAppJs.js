@@ -1,5 +1,3 @@
-
-
 /**
  * Once the page has loaded the event listener will carry out all of the app tasks
  * the formatting of html elements into javascript also happens, although partially, here
