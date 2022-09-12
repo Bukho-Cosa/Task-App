@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: monospace;
+}
+
+/*body{
+    background-color: #46BBFB;
+}*/
+#space{
+    min-height: 10vh;
+}
+header{
+    padding: 2rem 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 30vh;
+}
+header h1{
+    font-size: 6rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+main{
+    flex: 1 1 0%;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 30vh;
+}
+main #bodyFrontPage h3{
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+input{
+    appearance: none;
+    border: none;
+    outline: none;
+    background-color: #EBFEFE;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+#instructions{
+    flex: 1 1 0%;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
