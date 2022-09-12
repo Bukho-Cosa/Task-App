@@ -87,7 +87,7 @@ main{
 #tasks .task .content .text{
     cursor: pointer;
     font-size: 1.125rem;
-    width: 50%;
+    width: 100%;
     display: block;
     transition: 0.4s;
 }
