@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="../functions/toDoAppJs.js"></script>
+    <link rel="stylesheet" href="../css/toDoAppCss.css">
+    <title>Task List</title>
+</head>
+<body>
+
+    <header>
+        <h1> Task List </h1>
+        <h3> What do you have planned?</h3>
+        <form id="taskForm">
+            <input type="text" id="taskId" placeholder="e.g make dinner ">
+            <!--<input type="taskDate" id="date" class="date">-->
+            <input type="submit" value="Add Task" id="taskSubmit">
+        </form>
+    </header>
+
+    <main>
+        <section class="taskList">
+            <h2>Tasks</h2>
+            <div id="tasks">
+                <div class="task">
+                    <!--<div id="dateAndTime">
+                        <small><input type="date" class="date">
+                    </div></small>-->
+                    <div class="content">
+                        <input type="text" class="text" value="YOUR TASKS" id="staticText" readonly>
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+<!--home page should have instructions like double click to strike though task-->

@@ -53,3 +53,6 @@ switch(hour){
 //please remember to code for page switcing.
 // add a thing for using the name in the title of the next page
 //  add a thing for the actual moving to the next page (click onpage for next page)
+document.body.addEventListener('click', () => {
+    document.getElementById('nextPage').click();
+})
