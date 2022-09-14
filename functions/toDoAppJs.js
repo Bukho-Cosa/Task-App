@@ -3,6 +3,10 @@
  * the formatting of html elements into javascript also happens, although partially, here
  */
 
+/**
+ * add task array that conflates all the elements of the task: task, methods perhaps, date definitely and have that be what you use to save the data to local storage
+ */
+
 window.addEventListener('load', () => {
     const form = document.querySelector("#taskForm");
     const input = document.querySelector("#taskId");
