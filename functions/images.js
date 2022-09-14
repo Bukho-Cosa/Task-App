@@ -20,7 +20,7 @@ switch(hour){
     case 11:
         console.log("good morning");
         document.body.style.backgroundColor = "lightblue";
-        image.style.visibility = "hidden";
+        image.style.visibility = "hidden"; /* check your flex and placements in general for css and try to change visibility on html first and then do the styling here ir do it on css and then change it here*/ 
         break;
     case 12:
     case 13:
